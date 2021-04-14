@@ -12,7 +12,7 @@ Procedural.init( {
         attribution: 'Elevation attribution'
       },
       imagery: {
-        urlFormat: 'http://tiles.maps.linz.io/nz_colour_basemap/GLOBAL_MERCATOR/{z}/{x}/{y}.png',
+        urlFormat: 'https://tiles.maps.linz.io/nz_colour_basemap/GLOBAL_MERCATOR/{z}/{x}/{y}.png',
         attribution: 'Imagery attribution'
       },
     }
