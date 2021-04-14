@@ -18,6 +18,11 @@ Procedural.init( {
     }
   } );
 
-Procedural.displayLocation( { latitude: -46.061612354797795, longitude:  167.13911036209228} );
+  var target = {
+    latitude: -46.061612354797795, longitude: 167.13911036209228,
+    angle: 45, bearing: 45, distance: 100000
+  };
+
+Procedural.displayLocation( target );
 
 
