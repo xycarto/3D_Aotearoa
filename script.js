@@ -8,7 +8,7 @@ Procedural.init( {
       elevation: {
         pixelEncoding: 'terrain-rgb', // or 'nasadem', 'terrarium'
         pixelFormat: 'terrain-rgb',
-        urlFormat: 'http://localhost:8000/tiles/{z}/{x}/{y}.png',
+        urlFormat: 'https://xycarto.github.io/threeDee_test/tiles/{z}/{x}/{y}.png',
         attribution: 'Elevation attribution'
       },
       imagery: {
