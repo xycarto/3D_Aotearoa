@@ -19,8 +19,8 @@ Procedural.init( {
   } );
 
   var target = {
-    latitude: -41.29861861161199, longitude: 175.0069345452901,
-    angle: 45, bearing: 0, distance: 100000
+    latitude: -41.2924, longitude: 174.7787,
+    angle: 30, bearing: 90, distance: 100000
   };
 
 Procedural.displayLocation( target );
