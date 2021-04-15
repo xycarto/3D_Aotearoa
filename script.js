@@ -19,7 +19,7 @@ Procedural.init( {
   } );
 
   var target = {
-    latitude: -46.061612354797795, longitude: 167.13911036209228,
+    latitude: -41.29861861161199, longitude: 175.0069345452901,
     angle: 45, bearing: 0, distance: 100000
   };
 
