@@ -8,7 +8,7 @@ Procedural.init( {
       elevation: {
         pixelEncoding: 'terrain-rgb', // or 'nasadem', 'terrarium'
         pixelFormat: 'terrain-rgb',
-        urlFormat: 'https://xycarto-base-maps.s3-ap-southeast-2.amazonaws.com/nz-elevation-eight/elevationCache/{z}/{x}/{y}.png',
+        urlFormat: 'https://xycarto-base-maps.s3.amazonaws.com/nz-elevation-eight/elevationCache/{z}/{x}/{y}.png',
         attribution: 'Online elevation by XYCarto with'
       },
       imagery: {
