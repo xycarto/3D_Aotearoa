@@ -9,11 +9,11 @@ Procedural.init( {
         pixelEncoding: 'terrain-rgb', // or 'nasadem', 'terrarium'
         pixelFormat: 'terrain-rgb',
         urlFormat: 'https://xycarto-base-maps.s3-ap-southeast-2.amazonaws.com/nz-elevation-eight/elevationCache/{z}/{x}/{y}.png',
-        attribution: 'Elevation attribution'
+        attribution: 'Online elevation by XYCarto with'
       },
       imagery: {
         urlFormat: 'https://tiles.maps.linz.io/nz_colour_basemap/GLOBAL_MERCATOR/{z}/{x}/{y}.png',
-        attribution: 'Imagery attribution'
+        attribution: ' data sourced from LINZ Data Service CC-BY 4.0'
       },
     }
   } );
