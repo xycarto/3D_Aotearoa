@@ -19,7 +19,7 @@ Data
 
 	    gdalbuildvrt elevation.vrt *.tif
 	
-	Using the VRT, we can preform the noData conversion across all the elevation tiles as if it were a mosaic.  Better yet, the output from this command, will produce a mosaic out the there side.
+	Using the VRT, we can preform the noData conversion across all the elevation tiles as if it were a mosaic.  Better yet, the output from this command, will produce a mosaic out the other side.
 
 2. Remove nodata
 
