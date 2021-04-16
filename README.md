@@ -9,7 +9,7 @@ https://xycarto.github.io/3D_Aotearoa/
 Data
 Sourced from the LINZ Data Service and licensed for reuse under the CC BY 4.0(link is external) licence.
 
-*[8m DEM](https://data.linz.govt.nz/layer/51768-nz-8m-digital-elevation-model-2012/)
+*[8m DEM](https://data.linz.govt.nz/layer/51768-nz-8m-digital-elevation-model-2012/)*
 
 ## Steps to create elevation model using LINZ 8m DEM elevation tiles
 
