@@ -20,7 +20,7 @@ https://xycarto.github.io/3D_Aotearoa/
 	
 	Using the VRT, we can preform the noData conversion across all the elevation tiles as if it were a mosaic.  Better yet, the output from this command, will produce a mosaic out the other side.
 
-2. Remove nodata
+2. Remove noData
 
     *[gdalwarp](https://gdal.org/programs/gdalwarp.html)*
 
