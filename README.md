@@ -3,7 +3,7 @@ Website built to test running locally created elevation models through *[procedu
 
 This site is not affiliated with the project.
 
-https://xycarto.github.io/threeDee_test/
+https://xycarto.github.io/3D_Aotearoa/
 
 
 Data
