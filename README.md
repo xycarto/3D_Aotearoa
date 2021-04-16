@@ -16,7 +16,7 @@ Sourced from the LINZ Data Service and licensed for reuse under the CC BY 4.0(li
 1. With the VRT, we can gather all the elevation tiles under one file name.  
 	*[VRT (mosaic)](https://gdal.org/programs/gdalbuildvrt.html)*
 
-		`gdalbuildvrt elevation.vrt *.tif`
+		<code>gdalbuildvrt elevation.vrt *.tif</code>
 	
 	Using the VRT, we can preform the noData conversion across all the elevation tiles as if it were a mosaic.  Better yet, the output form this command, will produce a music out the there side 
 2. Remove nodata
