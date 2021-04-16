@@ -14,17 +14,20 @@ Sourced from the LINZ Data Service and licensed for reuse under the CC BY 4.0(li
 ## Steps to create elevation model using LINZ 8m DEM elevation tiles
 
 1. With the VRT, we can gather all the elevation tiles under one file name.  
+
     *[VRT (mosaic)](https://gdal.org/programs/gdalbuildvrt.html)*
 
 	    gdalbuildvrt elevation.vrt *.tif
 	
 	Using the VRT, we can preform the noData conversion across all the elevation tiles as if it were a mosaic.  Better yet, the output form this command, will produce a music out the there side 
 2. Remove nodata
-    *[gdalwarp](https://gdal.org/programs/gdalwarp.html]*
+
+    *[gdalwarp](https://gdal.org/programs/gdalwarp.html)*
 
 	    gdalwarp  -t_srs EPSG:3857 -dstnodata None  -co TILED=YES  -co COMPRESS=DEFLATE  -co BIGTIFF=YES  elevation.vrt elevation_noData_mosaic.tif
 
 3. RGB-ify the elevation mosaic.
+
     *[RGB-ify](https://github.com/mapbox/rio-rgbify)*
 
 	    rio rgbify -b -10000 -i 0.1 /elevation_noData_mosaic.tif elevation_noData_mosaic_rgb.tif
