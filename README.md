@@ -1,4 +1,4 @@
-# 3D Test 
+# 3D Aotearoa Test 
 Website built to test running locally created elevation models through *[procedural-gl.js](https://github.com/felixpalmer/procedural-gl-js)*
 
 This site is not affiliated with the project.
