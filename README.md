@@ -1,13 +1,12 @@
 # 3D Aotearoa Test 
-Website built to test running locally created elevation models through *[procedural-gl.js](https://github.com/felixpalmer/procedural-gl-js)*
+Website built to test using locally created elevation models for use with *[procedural-gl.js](https://github.com/felixpalmer/procedural-gl-js)*
 
-This site is not affiliated with the project.
+This site is not affiliated with any project.
 
 https://xycarto.github.io/3D_Aotearoa/
 
-
-Data
-<em>Sourced from the LINZ Data Service and licensed for reuse under the CC BY 4.0 licence.</em>
+##Data
+<em> Sourced from the LINZ Data Service and licensed for reuse under the CC BY 4.0 licence. </em>
 
 *[8m DEM](https://data.linz.govt.nz/layer/51768-nz-8m-digital-elevation-model-2012/)*
 
