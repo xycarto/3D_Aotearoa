@@ -19,14 +19,15 @@ Sourced from the LINZ Data Service and licensed for reuse under the CC BY 4.0(li
 
 	    gdalbuildvrt elevation.vrt *.tif
 	
-	Using the VRT, we can preform the noData conversion across all the elevation tiles as if it were a mosaic.  Better yet, the output form this command, will produce a music out the there side 
+	Using the VRT, we can preform the noData conversion across all the elevation tiles as if it were a mosaic.  Better yet, the output from this command, will produce a mosaic out the there side.
+
 2. Remove nodata
 
     *[gdalwarp](https://gdal.org/programs/gdalwarp.html)*
 
 	    gdalwarp  -t_srs EPSG:3857 -dstnodata None  -co TILED=YES  -co COMPRESS=DEFLATE  -co BIGTIFF=YES  elevation.vrt elevation_noData_mosaic.tif
 
-3. RGB-ify the elevation mosaic.
+3. RGB-ify the elevation mosaic
 
     *[RGB-ify](https://github.com/mapbox/rio-rgbify)*
 
