@@ -5,7 +5,7 @@ This site is not affiliated with any project.
 
 https://xycarto.github.io/3D_Aotearoa/
 
-##Data
+## Data
 <em> Sourced from the LINZ Data Service and licensed for reuse under the CC BY 4.0 licence. </em>
 
 *[8m DEM](https://data.linz.govt.nz/layer/51768-nz-8m-digital-elevation-model-2012/)*
